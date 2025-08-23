@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url(backround.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  line-height: 1.5; /* Improved line height for better readability */
+}
+
+/* Container awal.html */
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, cyan, magenta);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #ff0000, #ffa500);
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  background: white;
+  transform: scale(1.05);
+}
+
+.masuk-resiter {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+.masuk-link {
+    color: blue;
+    text-decoration: none;
+}
+

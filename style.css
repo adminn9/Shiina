@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url(latar.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  line-height: 1.5; /* Improved line height for better readability */
+}
+
+.container {
+  max-width: 420px;
+  background: rgba(0, 0, 50, 0.7); /* Slightly darker for better contrast */
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6); /* Enhanced shadow for depth */
+  text-align: center;
+  backdrop-filter: blur(8px); /* Increased blur effect */
+}
+
+.home-img {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.img-box img {
+  max-width: 85px;
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(0, 200, 255, 0.5); /* Enhanced shadow */
+  object-fit: cover;
+}
+
+/* ====== STYLE DASAR ====== */
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); /* Enhanced shadow */
+  background: linear-gradient(90deg, #ffffff, #cfcfcf, #ff4d4d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  color: white;
+  margin: 1rem 0; /* Added margin for spacing */
+}
+
+.links {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.btn {
+  display: block;
+  padding: 0.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(90deg, #000000, #222222);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #111, #444);
+  transform: scale(1.05);
+}
+
+.rules {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.rules h2 {
+  background: linear-gradient(90deg, #00c6ff, #00ffcc, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.8rem;
+  font-size: 1.5rem; /* Increased font size for emphasis */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.rules ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 350px;
+}
+
+.rules li {
+  color: #f0f0f0;
+  padding: 10px; /* Increased padding for better touch targets */
+  background: rgba(0, 0, 0, 0.4); /* Slightly lighter for better contrast */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.rules li:last-child {
+  border-bottom: none;
+}
+
+footer {
+  font-size: 0.85rem;
+  color: #bbb;
+  margin-top: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem; /* Reduced padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 2rem; /* Smaller font size for smaller screens */
+  }
+
+  .btn {
+    padding: 0.6rem; /* Smaller button padding */
+  }
+
+  .rules h2 {
+    font-size: 1.2rem; /* Smaller heading size */
+  }
+}
